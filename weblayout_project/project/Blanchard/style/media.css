@@ -1,0 +1,847 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header__conteiner {
+        flex-wrap: wrap;
+    }
+
+    .logo__link {
+        margin-right: 120px;
+    }
+
+    .header__list {
+        gap: 60px;
+    }
+
+
+
+    /*hero*/
+
+    .hero__content {
+        width: 51%;
+    }
+
+    /*gallery*/
+
+    .gallery__wrapper {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+
+    /*contacts*/
+
+    .contacts__content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .data__input {
+        padding: 15px 46.5px 15px 26.5px;
+    }
+}
+
+
+@media (max-width: 1180px) {
+
+    .header__list {
+        gap: 96px;
+    }
+
+    .header__scroll {
+        order: 3;
+    }
+
+    .logo__link {
+        margin-right: auto;
+        padding-bottom: 25px;
+    }
+
+    .btn__header {
+        padding-bottom: 20px;
+    }
+
+    /*catalog*/
+
+    .catalog__descr {
+        width: 100%;
+    }
+
+    .catalog-list__descr {
+        width: 96%;
+    }
+
+    .catalog__list {
+        gap: 48px;
+    }
+
+    .date {
+        display: inline-block;
+        margin-bottom: 13px
+    }
+
+    .catalog__item {
+        padding: 0;
+        padding-top: 609px;
+        background-image: none;
+        background-position: top;
+    }
+
+    .first__card {
+        background-image: url("/weblayout//18_work/img/catalog1024\(1\).svg");
+    }
+
+    .second__card {
+        background-image: url("/weblayout//18_work/img/catalog1024\(2\).svg");
+    }
+
+    .third__card {
+        background-image: url("/weblayout//18_work/img/catalog1024\(3\).svg");
+    }
+
+    .artist__name {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    /*header*/
+
+    .header {
+        padding-bottom: 24px;
+    }
+
+    .header__conteiner {
+        flex-wrap: wrap;
+    }
+
+    .header__list {
+        gap: 96px;
+    }
+
+    .header__scroll {
+        order: 3;
+    }
+
+    .logo__link {
+        margin-right: auto;
+        padding-bottom: 25px;
+    }
+
+    .nav {
+        order: 3;
+    }
+
+    .btn__header {
+        padding-bottom: 20px;
+    }
+
+    /*hero*/
+
+    .hero {
+        padding-top: 101px;
+        padding-bottom: 101px;
+        background-image: none;
+        background-image: url("/weblayout/18_work/img/hero1024.png");
+        background-repeat: no-repeat;
+    }
+
+    .hero__content {
+        width: 67%;
+    }
+
+    .hero__descr {
+        margin-bottom: 135px;
+    }
+
+    .btn__hero {
+        padding: 22px 40px;
+    }
+
+    /*about-us*/
+
+
+
+    .about-us__descr {
+        width: 92%;
+    }
+
+
+    /*gallery*/
+
+    .gallery {
+        padding-bottom: 76px;
+    }
+
+    .gallery__checkbox {
+        gap: 15px;
+        margin-bottom: 37px;
+    }
+
+    .gallery__wrapper {
+        flex-direction: column;
+    }
+
+    /*catalog*/
+
+    .catalog__descr {
+        width: 100%;
+    }
+
+    .catalog-list__descr {
+        width: 96%;
+    }
+
+    .catalog__list {
+        gap: 48px;
+    }
+
+    .date {
+        display: inline-block;
+        margin-bottom: 13px
+    }
+
+    .catalog__item {
+        padding: 0;
+        padding-top: 609px;
+        background-image: none;
+        background-position: top;
+    }
+
+    .first__card {
+        background-image: url("/weblayout//18_work/img/catalog1024\(1\).svg");
+    }
+
+    .second__card {
+        background-image: url("/weblayout//18_work/img/catalog1024\(2\).svg");
+    }
+
+    .third__card {
+        background-image: url("/weblayout//18_work/img/catalog1024\(3\).svg");
+    }
+
+    .artist__name {
+        margin-bottom: 15px;
+    }
+
+
+    /*events*/
+
+    .events {
+        padding-top: 40px;
+    }
+
+    .events-first__card {
+        background-image: url("../img/events1024\(1\).svg");
+    }
+
+    .events-second__card {
+        background-image: url("../img/events1024\(2\).svg");
+    }
+
+    .events-third__card {
+        background-image: url("../img/events1024\(3\).svg");
+    }
+
+    .events__list {
+        gap: 25px;
+    }
+
+    .events__item {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        display: flex;
+        padding: 210px 34px 48px 34px;
+        min-height: 418px;
+    }
+
+    .events__location {
+        min-width: 220px;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        align-items: flex-end;
+        margin-bottom: 6px;
+    }
+
+    /*projects*/
+
+    .projects {
+        padding-bottom: 74px;
+        padding-top: 47px;
+    }
+
+    .projects__title {
+        margin-bottom: 12px;
+    }
+
+    .projects__descr {
+        width: 94%;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .partners {
+        gap: 25px;
+    }
+
+    /*contacts*/
+
+    .contacts {
+        padding-top: 43px;
+        padding-bottom: 43px;
+    }
+
+    .contacts__content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .data__input {
+        padding: 15px 46.5px 15px 26.5px;
+    }
+
+    .form {
+        gap: 20px;
+    }
+
+
+    .btn__contacts {
+        padding-right: 49.5px;
+        padding-left: 49.5px;
+    }
+
+    .address__descr {
+        margin-bottom: 7px;
+    }
+
+    .address__locate {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+
+
+
+    /*footer*/
+
+    .footer {
+        padding-top: 24px;
+        padding-bottom: 29px;
+    }
+
+    .footer__content {
+        align-items: center;
+    }
+
+    .footer__link svg {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+}
+
+@media (max-width: 960px) {
+    .header__list {
+        gap: 45px;
+        flex-shrink: 0;
+    }
+
+    .header__scroll::-webkit-scrollbar {
+        width: 0
+    }
+
+    .header__scroll {
+        width: 100%;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        padding-bottom: 18px;
+        margin-bottom: -35px;
+    }
+
+    /*hero*/
+
+
+    .hero {
+        padding-top: 87px;
+        padding-bottom: 86px;
+    }
+
+
+    /*about-us*/
+
+    .about-us {
+        padding-bottom: 67px;
+    }
+
+    .about-us__descr {
+        width: 94%;
+    }
+
+
+    /*gallery*/
+
+    .gallery__title {
+        margin-bottom: 22px;
+    }
+
+    .gallery__paintings {
+        gap: 35px;
+    }
+
+    .gallery__checkbox {
+        margin-bottom: 20px;
+    }
+
+
+    /*catalog*/
+
+    .catalog__item {
+        background-image: none;
+        padding-top: 448px;
+    }
+
+    .date {
+        margin-bottom: 4px;
+    }
+
+    .first__card {
+        background-image: url("../img/catalog768\(1\).svg");
+    }
+
+    .second__card {
+        background-image: url("../img/catalog768\(2\).svg");
+    }
+
+    .third__card {
+        background-image: url("../img/catalog768\(3\).svg");
+    }
+
+    /*events*/
+
+    .events__list {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .events__location {
+        min-width: 106%;
+    }
+
+    .events-list__title {
+        margin-bottom: 15px;
+    }
+
+    .events__item {
+        background-position: center top;
+        width: 90%;
+        min-height: 263px;
+    }
+
+    .events-first__card {
+        background-image: url("../img/events768\(1\).svg");
+    }
+
+    .events-second__card {
+        background-image: url("../img/events768\(2\).svg");
+    }
+
+    .events-third__card {
+        background-image: url("../img/events768\(3\).svg");
+    }
+
+    .events__article {
+        min-height: 0;
+    }
+
+    /*projects*/
+
+    .projects {
+        padding-top: 42px;
+    }
+
+    .projects__title {
+        margin-bottom: 16px;
+    }
+
+    .projects__descr {
+        margin-bottom: 25px;
+    }
+
+    .projects__partners {
+        margin-bottom: 30px;
+    }
+
+    .partners__image {
+        width: 82%;
+    }
+
+    /*contatcs*/
+
+    .contacts {
+        padding-bottom: 43px;
+    }
+
+    .address__descr {
+        margin-bottom: 11px;
+    }
+
+    .form {
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
+    .data__input {
+        padding: 15px 103.5px 15px 23.5px;
+        margin-bottom: 12px;
+    }
+
+    .data__input:first-child {
+        margin-right: 20px;
+    }
+
+    .btn__contacts {
+        padding: 12.5px 35.5px 12.5px 35.5px;
+    }
+
+
+    /*footer*/
+
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:620px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .second__title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+
+    /*header*/
+
+    .header {
+        padding-top: 16px;
+        padding-bottom: 12px;
+    }
+
+    .logo {
+        width: 56%;
+    }
+
+    .logo__link {
+        padding-bottom: 5px;
+    }
+
+    .header__scroll::-webkit-scrollbar {
+        width: 0
+    }
+
+    .header__scroll {
+        justify-content: flex-start;
+        white-space: nowrap;
+        overflow-x: scroll;
+        padding-bottom: 18px;
+        margin-bottom: -35px;
+        width: 100%;
+    }
+
+
+    .header__list {
+        flex-shrink: 0;
+        gap: 27px;
+    }
+
+
+    .header__link {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .btn__header {
+        padding-bottom: 5px;
+    }
+
+    .btn__header svg {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    /*hero*/
+
+
+    .hero {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        line-height: 28px;
+        margin-bottom: 11px;
+    }
+
+    .hero__descr {
+        width: 84%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 38px;
+    }
+
+    .btn__hero {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 13px 22px 12px 21px;
+    }
+
+    /*about-us*/
+
+    .about-us {
+        padding-top: 50px;
+        padding-bottom: 41px;
+    }
+
+    .about-us__descr {
+        font-size: 14px;
+        line-height: 28px;
+        width: 93%;
+    }
+
+
+    /*gallery*/
+
+    .gallery {
+        padding-top: 50px;
+        padding-bottom: 46px;
+    }
+
+    .gallery__title {
+        margin-bottom: 20px;
+    }
+
+    .gallery__paintings {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .gallery__checkbox {
+        gap: 13px;
+    }
+
+    /*catalog*/
+
+    .catalog {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .catalog__descr {
+        width: 97%;
+    }
+
+    .catalog__top {
+        margin-bottom: 30px;
+    }
+
+    .catalog__list {
+        gap: 29px;
+    }
+
+    .catalog__item {
+        background-image: none;
+        padding-top: 203px;
+    }
+
+    .date {
+        margin-bottom: 14px;
+    }
+
+    .first__card {
+        background-image: url("../img/catalog320\(1\).svg");
+    }
+
+    .second__card {
+        background-image: url("../img/catalog320\(2\).svg");
+    }
+
+    .third__card {
+        background-image: url("../img/catalog320\(3\).svg");
+    }
+
+    .artist__name {
+        margin-bottom: 5px;
+        width: 99%;
+    }
+
+    /*events*/
+
+    .events {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .events__list {
+        gap: 22px;
+    }
+
+    .events__item {
+        width: 84%;
+        min-height: 421px;
+        padding: 210px 23px 48px 22px;
+        background-image: none;
+    }
+
+    .events-list__title {
+        margin-bottom: 11px;
+    }
+
+
+    .events-first__card {
+        background-image: url("../img/events320\(1\).svg");
+    }
+
+    .events-second__card {
+        background-image: url("../img/events320\(2\).svg");
+    }
+
+    .events-third__card {
+        background-image: url("../img/events320\(3\).svg");
+    }
+
+
+    /*projects*/
+
+    .projects {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .projects__partners {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .projects__partners {
+        margin-bottom: 7px;
+    }
+
+    .partners {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .partners__image {
+        width: 54%;
+        padding: 30px 65px;
+    }
+
+    /*contats*/
+
+    .contacts {
+        padding-top: 20px;
+        padding-bottom: 46px;
+        border: none;
+    }
+
+    .contacts__content {
+        gap: 20px;
+    }
+
+    .address__descr {
+        margin-bottom: 6px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .form {
+        gap: 8px;
+    }
+
+    .data__input {
+        padding: 10px 69.5px 9px 22.5px;
+    }
+
+
+    .btn__contacts {
+        display: none;
+    }
+
+    .btn__small {
+        border: 2px solid var(--purple);
+        border-radius: 100px;
+        color: var(--purple);
+        font-size: 12px;
+        line-height: 16px;
+        display: inline-block;
+        padding: 10px 37px;
+    }
+
+    .communication__title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 7px;
+    }
+
+    .communication__link svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*footer*/
+
+    .footer {
+        padding-top: 20px;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+    }
+
+    .footer__list {
+        margin: 0;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footer__link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__link svg {
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+}
+
